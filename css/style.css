@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'VT323', 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+}
+
+body {
+    background-color: rgb(52, 53, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background-color: aqua;
+    border: 1px solid black;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.count-div {
+    width: 100%;
+    text-align: center;
+    border: none;
+    padding: 0;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+}
+
+button {
+    margin-top: 24px;
+    padding: 12px;
+    width: 100%;
+}
+
+label {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.button-group {
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    border: none;
+}
+
+.button-group button {
+    margin: 0;
+    padding: 12px;
+    width: 33.3%;
+}
+
+small {
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+.time-container {
+    width: 100%;
+    padding: 0;
+    border: none;
+}
+
+
+
+.hide {
+    display: none;
+}

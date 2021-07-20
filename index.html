@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Performance App for SPAR Workers</title>
+</head>
+
+<body>
+    <div class="login-container hide">
+        <label for="">Törzsszám:</label>
+        <input type="number">
+
+        <button>Belépés</button>
+    </div>
+    <div class="pick-datas">
+        <label for="">Kereskedelmi egység</label>
+        <input type="number" id="unit" class="unit-input">
+        <div class="count-div">
+            <small>Az eddig össze szedett mennyiség</small>
+            <span><b class="count">0</b> egység.</span>
+        </div>
+        <button class="add-button hide">Hozzáadás</button>
+
+        <div class="time-container">
+            <label for="">Eltelt idő</label>
+            <input type="time">
+            <div class="button-group">
+                <button>▶</button>
+                <button>&#9208;</button>
+                <button>⏹</button>
+            </div>
+        </div>
+        
+
+        <button class="hide">ÚJ BOLT</button>
+    </div>
+
+<script src="js/app.js"></script>
+</body>
+
+</html>
