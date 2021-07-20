@@ -2,8 +2,6 @@
 
 * {
     box-sizing: border-box;
-    font-family: 'VT323', 'Courier New', Courier, monospace;
-    font-size: 1.8rem;
 }
 
 body {
@@ -23,6 +21,11 @@ div {
     justify-content: center;
     margin: 50px auto;
     padding: 50px;
+}
+
+div * {
+    font-family: 'VT323', 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
 }
 
 .count-div {
