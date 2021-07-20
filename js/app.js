@@ -14,4 +14,7 @@ function addUnits() {
     return countDIV.innerHTML = pickedUnit;
 }
 
-commericalUnit_Input.addEventListener('focusout', addUnits)
+commericalUnit_Input.addEventListener('focusout', addUnits);
+commericalUnit_Input.addEventListener('click', function() {
+    commericalUnit_Input.value = "";
+})
