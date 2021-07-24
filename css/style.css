@@ -73,7 +73,7 @@ small {
     margin-bottom: 12px;
 }
 
-.time-container {
+.time-container, .units, .ertekeles {
     width: 100%;
     padding: 0;
     border: none;
