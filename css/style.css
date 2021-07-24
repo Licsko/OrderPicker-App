@@ -10,6 +10,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'VT323', 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
 }
 
 div {
@@ -23,10 +25,10 @@ div {
     padding: 20px;
 }
 
-div * {
+/* div * {
     font-family: 'VT323', 'Courier New', Courier, monospace;
     font-size: 1.8rem;
-}
+} */
 
 .count-div {
     width: 100%;
@@ -43,6 +45,8 @@ input {
 }
 
 button {
+    font-family: 'VT323', 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
     margin-top: 24px;
     padding: 12px;
     width: 100%;
@@ -80,7 +84,9 @@ small {
     margin: 0;
 }
 
-
+#my_dataviz{
+    font-family: Arial, Helvetica, sans-serif !important;
+} 
 
 .hide {
     display: none;
