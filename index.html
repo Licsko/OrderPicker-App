@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="login-container">
+    <div class="login-container hide">
         <label for="">Törzsszám:</label>
         <input type="number" min="0" max="6">
 
@@ -26,9 +26,7 @@
             </div>
             <!-- <button class="add-button">Hozzáadás</button> -->
         </div>
-        
-
-        <div class="time-container">
+        <div class="time-container hide">
             <label for="">Eltelt idő</label>
             <input type="time">
             <div class="button-group">
@@ -37,9 +35,10 @@
                 <button>⏹</button>
             </div>
         </div>
-        
+
         <div class="ertekeles">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, expedita! Amet soluta, temporibus consequuntur fuga animi repudiandae neque vitae numquam accusamus sequi nihil quod asperiores placeat cum impedit unde quae iusto error inventore illo hic perspiciatis. Odit, totam provident omnis deserunt voluptate obcaecati perspiciatis amet natus aliquid neque ea vel alias modi autem doloribus officia dolorem earum nulla nesciunt nisi. 
+            <span><b class="count">0</b> egységet szedtél ki összesen.</span> <br>
+            00:00 idő alatt.
             <button class="">ÚJ BOLT</button>
         </div>
     </div>
@@ -48,10 +47,11 @@
 
     <!-- Create a div where the graph will take place -->
     <div id="my_dataviz">
+        <h2>Szedéseim</h2>
 
     </div>
 
-<script src="js/app.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
