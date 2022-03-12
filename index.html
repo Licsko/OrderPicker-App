@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <div class="login-container hide">
+    <div class="login-container">
         <label for="">Törzsszám:</label>
         <input type="number" min="0" max="6">
 
-        <button>Belépés</button>
+        <button class="entrie-button">Belépés</button>
     </div>
     <div class="pick-datas">
         <div class="units">
@@ -39,7 +39,7 @@
         <div class="ertekeles">
             <span><b class="count">0</b> egységet szedtél ki összesen.</span> <br>
             00:00 idő alatt.
-            <button class="">ÚJ BOLT</button>
+            <button class="new-shop-button">ÚJ BOLT</button>
         </div>
     </div>
     <!-- Load d3.js -->
@@ -52,6 +52,8 @@
     </div>
 
     <script src="js/app.js"></script>
+    <script src="js/motors/addings.js"></script>
+    <script src="js/motors/calc.js"></script>
 
 </body>
 
